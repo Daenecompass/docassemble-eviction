@@ -1,0 +1,27 @@
+retaliation_defenses:
+  - withheld rent
+  - reported to landlord
+  - reported to agency
+retaliation:
+  withheld rent:
+    object: DAObject
+    item:
+      question: Did you withhold rent?
+      claim: withhold rent
+      document: >-
+        I withheld rent because of bad conditions, and/or told the landlord 
+        about bad conditions.
+  reported to landlord:
+    object: DAObject
+    item:
+      question: Did you report bad conditions to the landlord?
+      claim: report bad conditions to the landlord
+      document: >-
+        I reported bad conditions in writing to the landlord.
+  reported to agency:
+    object: DAObject
+    item:
+      question: Did you report bad conditions to a public agency?
+      claim: report bad conditions to a public agency
+      document: >-
+        I reported bad conditions orally and/or in writing to a public agency.
