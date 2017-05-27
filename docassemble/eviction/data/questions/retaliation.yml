@@ -12,7 +12,7 @@ code: |
   retaliation = info['retaliation']
 ---
 question: |
-  Do you have a colorable counterclaim?
+  Do you have a decent counterclaim?
 yesno: retaliation_counterclaim
 ---
 question: |
