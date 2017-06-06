@@ -11,6 +11,9 @@ retaliation:
       document: >-
         I withheld rent because of bad conditions, and/or told the landlord 
         about bad conditions.
+      discovery:
+        - rent records
+        - maintenance records
   reported to landlord:
     object: DAObject
     item:
@@ -18,6 +21,8 @@ retaliation:
       claim: report bad conditions to the landlord
       document: >-
         I reported bad conditions in writing to the landlord.
+      discovery:
+        - correspondence
   reported to agency:
     object: DAObject
     item:
@@ -25,3 +30,4 @@ retaliation:
       claim: report bad conditions to a public agency
       document: >-
         I reported bad conditions orally and/or in writing to a public agency.
+      discovery: null

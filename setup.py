@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.eviction',
-      version='0.0.1',
+      version='0.0.2',
       description=('A docassemble extension.'),
       author=u'Jonathan Pyle',
       author_email=u'jonathan@docassemble.org',
